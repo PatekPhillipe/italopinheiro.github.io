@@ -39,9 +39,11 @@ style.css
 }
 
 .profile .profile-image {
-    width: 100%;
-    border-radius: 100%;
-}
+    position: absolute;
+    width: 896px;
+    height: 941px;
+    left: 105px;
+    top: 47px; 
 
 .name {
     color: #D6DBDF;
@@ -65,11 +67,23 @@ style.css
 .left-title {
     color: #eeeeee;
     font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding-top: 3rem;
 }
 
 .contact-info ul {
     padding-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    color: #d6dbdfaf;
+    letter-spacing: 1px;
+    font-size: 18px;
 }
+
 
 .contact-info ul li,
 .references ul li {
@@ -89,7 +103,13 @@ style.css
 }
 .skills ul li p {
     padding: .4rem 0;
-    color: #eeeeee;
+    color: #d6dbdfaf;
+    font-size: 18px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
 }
 
 .right-section-contents {
@@ -140,7 +160,7 @@ style.css
     
     .profile .profile-image {
         width: 100%;
-        border-radius: 100%;
+        border-radius: 50%;
         border: 8px solid #1B2631;
 }
     
@@ -150,6 +170,9 @@ style.css
         font-size: 30px;
         letter-spacing: 2px;
         text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+        padding: 1rem 0;
     }
     
     .profession {
@@ -203,6 +226,8 @@ style.css
     }
     .about-me-contents {
         font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 2rem;
         color: #eeeeee;
     }
     
